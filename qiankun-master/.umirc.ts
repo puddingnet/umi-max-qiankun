@@ -40,7 +40,7 @@ export default defineConfig({
             apps: [
                 {
                     name: 'slave',
-                    entry: '//localhost:8001'
+                    entry: '//localhost:8001/slave-path/'
                 }
             ]
         }
